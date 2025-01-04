@@ -12,7 +12,7 @@ func main() {
 	// the log entry prefix and a flag to disable printing the time, source file, and line number.
     log.SetFlags(0)
 	// Request a greeting message.
-	message, err:=greeting.Hello("")
+	message, err:=greeting.Hello("nemyA")
 	// If an error was returned, print it to the console and exit the program.
 	if err != nil {
 		log.Fatal(err)
