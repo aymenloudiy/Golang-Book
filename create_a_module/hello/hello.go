@@ -12,7 +12,7 @@ func main() {
 	// the log entry prefix and a flag to disable printing the time, source file, and line number.
     log.SetFlags(0)
 	// A slice of names.
-	names := []string{"nemyA","Fool","Great Love","Nimueh","Aymons"}
+	names := []string{"nemyA","Fool","Great Love","Nimueh",""}
 	// Request greeting messages for the names.
 	messages, err:=greeting.Hellos(names)
 	// If an error was returned, print it to the console and exit the program.
